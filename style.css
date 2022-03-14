@@ -1,0 +1,40 @@
+* {
+    color: rgb(99, 94, 94);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+ul {
+    list-style: inside;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin: 40px;
+}
+
+a {
+    font-size: 28px;
+}
+
+ul>li {
+    margin: 10px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+ol>li {
+    text-align: left;
+    margin: 10px;
+}
+
